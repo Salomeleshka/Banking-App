@@ -85,7 +85,6 @@ const formatMovementDates = function (date, locale) {
   return new Intl.DateTimeFormat(locale).format(date);
 };
 
-// Reusable function
 const fromatCur = function (value, locale, currency) {
   return new Intl.NumberFormat(locale, {
     style: 'currency',
